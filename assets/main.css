@@ -1,4 +1,200 @@
-.textcss {
-    font-size: 10pt;
-    color: green;
+body {
+    margin: 0;
+    background-color: #C7CBC7;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/*Navigation bar*/
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0px;
+    background-color: #C7CBC7;
+    margin-bottom: 0px;
+}
+
+.logo {
+    font-weight: bold;
+    margin: 0px 10.5%;
+    font-size: 25px;
+}
+
+nav div a {
+    color:black;
+    text-decoration: none;
+}
+
+.links {    
+    margin: 0px 16%;
+}
+
+nav div ul li {
+    display: inline-block;
+    list-style: none;
+    margin:2px 12px;
+}
+
+/*Monke video style */
+
+.Monke-video {
+    background-color: #94B798;
+}
+
+.video {
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+.Monke-video-chunk {
+    max-width: 1500px;
+    max-height: 1920px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.Monke-video-content {
+    background-color: #94B798;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    width: 1400px;
+    height: 1080px;
+}
+
+/*Bio */
+
+.Bio {
+    background-color: #ECF0E0;
+}
+
+.Bio-chunk {
+    max-width: 1500px;
+    max-height: 600px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.Bio-content {
+    display: block;
+    width: 1400px;
+    height: 600px;
+}
+
+.Bio-content-text {
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    width: 1000px;
+    height: 600px;
+}
+
+.Bio-content-text h1 {
+    margin-top: 0px;
+    font-size: 50px;
+    padding-top: 80px;
+    padding-bottom: 45px;
+}
+
+.Bio-content-text p {
+    margin-top: 0px;
+    font-size: 30px;
+}
+
+/*Monke homage*/
+
+.Monke-homage {
+    background-color: #313A32;
+    color: white;
+}
+
+.Monke-homage-chunk {
+    max-width: 1500px;
+    max-height: 850px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.Monke-homage-content {
+    display: block;
+    width: 1400px;
+    height: 850px;
+}
+
+.Monke-picture {
+    float: right;
+    display: block;
+    height: 500px;
+    width:400px;
+    margin: 0px;
+}
+
+.Monke-homage-bio {
+    display: block;
+    height: 530px;
+    width:900px;
+}
+
+.Mandrill {
+    margin-top: 40px;
+    float: right;
+}
+
+div div div h1 {
+    font-size: 20px;
+    margin-top: 0px;
+    padding-top: 30px;
+}
+
+div div div h2 {
+    font-size: 50px;
+    margin-top: 0px;
+    padding-top: 30px;
+} 
+
+div div div p {
+    font-size: 20px;
+}
+
+.Monke-list {
+    width: 1400px;
+    height:300px;
+    text-align: center;
+}
+
+div div div h3 {
+    opacity: 0.5;
+    font-size: 35px;
+    padding: 60px;
+    margin-top: 0px;
+}
+
+div div div h3:hover {
+    opacity: 0.75;
+  }
+
+.Copyright {
+    max-width: 1500px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.Copyright p {
+    font-weight: bold;
+    font-size: 17.5px;
+}
+
+@media
+(prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
 }
